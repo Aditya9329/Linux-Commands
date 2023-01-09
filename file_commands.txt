@@ -1,0 +1,156 @@
+File Commands
+---------------------------------------------------------------------------------------------
+- cat
+- cp 
+- mv 
+- rm
+Directory Commands
+---------------------------------------------------------------------------------------------
+- mkdir
+- cd 
+- rmdir
+
+Miscellaneous Commands
+----------------------------------------------------------------------------------------------
+- ls 
+- pwd
+- head
+- tail
+- ps
+- kill
+- who
+- whoami
+
+Filter Commands
+-----------------------------------------------------------------------------------------------
+- grep
+- sort
+File Compare Commands
+------------------------------------------------------------------------------------------------
+- cmp
+- diff
+- comm
+- wc
+- uniq
+
+chmod - File Access permission
+
+
+--------------------------------------------------------------------------------------------------
+
+cat command: it has multiple purpose we can create a file ,we can read a 
+from a file or we can concat multiple files or wecan also append some daa into the existing file
+with the help of cat command.
+
+ls - is a command which list down filesor directory.
+clear - is a command which isused for
+
+cat > filename - to create a file and u can write at the same same and use ctrl + d to come o
+
+cat file_name - to read a content of a file.
+
+
+read two file: 
+cat file_name1 file_name
+
+
+To append the data into the existing file
+-------------------------------------------
+cat >> testing.txt
+__________
+__________
+__________
+
+----------------------------------------------
+
+cp command:- to copy the content of file to the another file.
+cp testing.txt testing_new.txt
+cp source_file target file
+
+
+----------------------------------------------------------------------------------------------------
+
+mv command: its has multiple
+purposes, and move file from one directory toanother directory
+
+mv for rename the existing file name and directory
+--------------------------------------------------
+
+
+rename file with mv
+---------------------
+mv testing.txt automation.txt
+
+rename the directory name with mv
+-------------------------------------
+mv mydir your_dir
+
+
+move the file from one directory to another directory
+------------------------------------------------------
+
+mv filename directory_name
+mv automation.txt your_dir
+
+
+cat your_dir/automation.txt
+-----------------------------------------------------------------------------------------------------
+
+cd - is use to change the directoru
+Ex: cd directory_name
+
+cd .. is used to one level back
+Ex: cd ..
+
+pwd: it shows the present working directory
+
+------------------------------------------------------------------------------------------------------
+
+rm command: is used to delete the file or directory
+----------------------------------------------------
+ - if u want to delete the directory using (rm) command the directory must be empty.
+ - if u want to delete the directory if there are somefile in it so we can delete it forcefully.
+
+To delete a file
+---------------
+rm file_name
+Ex: rm testing.txt
+
+To delete a directory having some files in it
+---------------------------------------------
+rm -r directory_name
+Ex: rm -r your_dir
+r- stands for recursion
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
